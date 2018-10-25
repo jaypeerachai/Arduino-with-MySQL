@@ -1,0 +1,17 @@
+Access MySQL: 
+cd c:\xampp\mysql\bin
+mysql.exe -u LJMU --password
+
+
+select database:
+USE iot;
+
+create table:
+create table dataDistance(
+  sno int(4) primary key auto_increment,
+  CurrentTime varchar(8),
+  Distance varchar(20)
+);
+
+Display table:
+desc dataDistance;
